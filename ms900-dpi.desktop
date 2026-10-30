@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=MS900 DPI
+Comment=Set the DPI of a Dell MS900 mouse
+Exec=ms900-dpi-gui
+Icon=input-mouse
+Terminal=false
+Categories=Settings;HardwareSettings;

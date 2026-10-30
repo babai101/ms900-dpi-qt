@@ -1,0 +1,5 @@
+# Let the logged-in user change DPI on the Dell MS900 without sudo.
+# USB receiver (Dell Secure Link Receiver 413c:2119)
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="413c", ATTRS{idProduct}=="2119", TAG+="uaccess"
+# Bluetooth (any Dell HID device over BT)
+SUBSYSTEM=="hidraw", KERNELS=="0005:0000413C:*", TAG+="uaccess"
